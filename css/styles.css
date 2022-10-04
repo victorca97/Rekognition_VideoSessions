@@ -8,13 +8,13 @@
 
 body {
     font-family: "Roboto";
-    background: #7272727c;
+    background: #fff;
 }
 
 /* CABEZERA */
 header {
     padding: 17px;
-    background: #ad1a2b;   /*#ad1a2b;*/   /*#a73924;*/
+    background: #dd0000;   /*#ad1a2b;*/   /*#a73924;*/
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -99,6 +99,18 @@ h2 {
     background: #2780da;
 }
 
+.btn-success {
+    color: #fff;
+    background-color: #098ee8;
+    border-color: #098ee8;
+    
+}
+
+.btn-success:hover {
+    background-color:#0b68a7;
+    border-color: #0b68a7;
+    transition: 0.7s;
+}
 /* ->Estilos generales */
 
 /* Body */
@@ -158,7 +170,7 @@ main {
 
 #Images .add-new-photo {
     display: flex;
-    border: 4px dashed #fff;
+    border: 4px dashed rgb(201, 201, 201);
     height: 100%;
     min-height: 240px;
     justify-content: center;
@@ -175,7 +187,7 @@ main {
 }
 #Images .add-new-photo2 {
     display: flex;
-    border: 4px dashed #fff;
+    border: 4px dashed rgb(201, 201, 201);
     height: 100%;
     min-height: 240px;
     justify-content: center;
@@ -233,20 +245,20 @@ main {
         font-weight: bold;
     }
 
-#logo_paino{
+#logo_videosessions{
         float: right;
-        margin-top: -48px;
+        margin-top: -58px;
         margin-right: 20px;
-        width: 200px;
+        width: 350px;
     }
 
 /* Configuración del header responsive*/
-@media (max-width: 650px) {
+@media (max-width: 790px) {
     #titulo{
         text-align: center;
     }
 
-    #logo_paino{
+    #logo_videosessions{
         float: none;
         display: block;
         text-align: center;
@@ -255,6 +267,17 @@ main {
 }
 
 @media (min-width: 475px) and (max-width: 800px) {
+    #Images .add-new-photo2 {
+        justify-content: center;
+        margin: 0px auto;
+        font-size: 50px;
+        color: #fff;
+        border-radius: 4px;
+    }
+    
+}
+
+@media (min-width: 280px) and (max-width: 800px) {
     #Images .add-new-photo2 {
         justify-content: center;
         margin: 0px auto;
