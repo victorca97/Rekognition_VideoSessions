@@ -10,7 +10,7 @@ document.getElementById("Button").addEventListener("click", function (event){Pro
         var file = control.files[0];
         if (file.size >= 5123179){
             // window.alert("La imagen pesa mas de 5mb")
-            console.log("raaaa");
+            console.log("La imagen pesa mas de 5mbaaa");
         }else{
             var reader = new FileReader();
             reader.onload = (function (theFile){
