@@ -143,7 +143,7 @@ document.getElementById("Button").addEventListener("click", function (event){Pro
         // Configure the credentials provider to use your identity pool
         AWS.config.region = 'us-east-1'; // Region
         AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-        IdentityPoolId: 'us-east-1:4ee985c7-f1e2-4e34-8b9c-f3158bdb1b7f',
+        IdentityPoolId: 'us-east-1:7e23fca7-de85-4b4a-9aaa-050f718a1efa',
         });
         // Make the call to obtain credentials
         AWS.config.credentials.get(function () {
